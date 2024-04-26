@@ -18,5 +18,7 @@ int main(void)
 	 printf("Depth of %d: %lu\n", root->right->n, depth);
 	 depth = binary_tree_depth(root->left->right);
 	 printf("Depth of %d: %lu\n", root->left->right->n, depth);
+	 depth = binary_tree_depth(NULL);
+	 printf("Depth --> %lu\n", depth);
 	return (0);
 }
